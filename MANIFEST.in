@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pretty_date *.css
+recursive-include pretty_date *.csv
+recursive-include pretty_date *.html
+recursive-include pretty_date *.ico
+recursive-include pretty_date *.js
+recursive-include pretty_date *.json
+recursive-include pretty_date *.md
+recursive-include pretty_date *.png
+recursive-include pretty_date *.py
+recursive-include pretty_date *.svg
+recursive-include pretty_date *.txt
+recursive-exclude pretty_date *.pyc
